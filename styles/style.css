@@ -22,6 +22,15 @@
     line-height: 85px;
 }
 
+p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38pxs;
+}
+
 /*----header starts here----*/
 .banner {
     background: linear-gradient(180deg, #140730 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
@@ -90,12 +99,73 @@
     font-weight: 700;
     line-height: normal;
 }
-.first-cover-img{
+
+.first-cover-img {
     width: 500px;
     height: 400px;
     margin: 50px auto;
 
 }
-.first-cover-img img{
+
+.first-cover-img img {
     width: 100%;
+}
+
+/*----second cover section starts here----*/
+.cover-content {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+        url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.cover-left {
+    width: 500px;
+    padding-left: 110px;
+
+}
+
+.cover-left h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+
+.cover-left p {
+    width: 602px;
+    margin: 10px 0;
+}
+
+.cover-left button {
+    background: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border: 0;
+
+}
+
+.cover-right {
+    width: 300px;
+    height: 300;
+    padding: 20px 10;
+
+}
+.cover-right img{
+    width: 100%;
+    height: auto;
 }
