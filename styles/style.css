@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Merriweather:wght@400;700;900&display=swap');
+
+/*----common style here----*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1300px;
+    margin: 40px auto;
+}
+
+.heading-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 85px;
+}
+
+/*----header starts here----*/
+.banner {
+    background: linear-gradient(180deg, #140730 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-title {
+    text-align: center;
+    width: 650px;
+}
+
+.banner-title h4 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/*---first cover section----*/
+.first-cover {
+    margin: 70px 0;
+    text-align: center;
+}
+
+.first-cover-content h1 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.first-cover-content .cover-title {
+    margin: 25px 0;
+}
+
+.first-cover-content .cover-title h6 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.first-cover-content .cover-title h4 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.first-cover-img{
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+
+}
+.first-cover-img img{
+    width: 100%;
+}
