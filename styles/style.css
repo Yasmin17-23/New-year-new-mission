@@ -52,7 +52,9 @@ p {
     line-height: normal;
     margin-bottom: 10px;
 }
-
+span{
+    color: #F00;
+}
 /*----header starts here----*/
 .banner {
     background: linear-gradient(180deg, #140730 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
@@ -199,18 +201,13 @@ p {
 
 .venu-content h3 {
     color: #070211;
-    font-family:  'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 35px;
 
 }
-
-.venu-content span {
-    color: #F00;
-}
-
 .venu-content button {
     margin-top: 30px;
 }
@@ -218,7 +215,6 @@ p {
 /*---offer starts here---*/
 .offer-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -270,12 +266,95 @@ p {
     line-height: normal;
     margin-bottom: 8px;
 }
-.offer-right-img{
+
+.offer-right-img {
     width: 90px;
     height: 90px;
     margin-top: 10px;
 }
-.offer-right-img img{
+
+.offer-right-img img {
     width: 100%;
 }
+
 /*---offer ends here---*/
+/*---holidays starts here---*/
+.holiday {
+    margin: 80px auto;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+
+.holiday-updates {
+    overflow: hidden;
+}
+
+.holiday-desc h4 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.holiday-desc h1 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.holiday-desc p {
+    color: #21123f;
+    width: 700px;
+    margin: 15px auto;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+.holiday-mid{
+    margin: 150px auto;
+}
+.img-box {
+    position: relative;
+    margin-top: 30px;
+
+}
+
+.img-box .img-rect {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.img-box .img-girl {
+    position: absolute;
+    right: 0;
+    bottom: 180px;
+    width: 350px;
+    z-index: -1;
+
+}
+.img-box .img-disc {
+    position: absolute;
+    top: 5%;
+    right: 23%;
+    width: 210px;
+    height: 210px;
+    z-index: 1;
+
+}
+.img-box .img-gift {
+    transform: translateX(-45%);
+    bottom: 8%;
+    
+}
